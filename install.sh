@@ -10,9 +10,9 @@ if [[ $(uname) == 'Linux' ]]; then
 
 fi
 
-# Copy global-package-list file to .npm directory.
+# Copy global-package-list.txt file to .npm directory.
 mkdir -p ~/.npm
-cp ./global-package-list ~/.npm
+cp ./global-package-list.txt ~/.npm
 
 # Install npm packages from .npm file.
 package_dir="$(npm config get prefix)/lib"
@@ -24,7 +24,7 @@ while read p; do
   if [ $installed == "0" ]; then
     npm install -g $p
   fi
-done < ~/.npm/global-package-list
+done < ~/.npm/global-package-list.txt
 
 if [[ $? == 0 ]]; then
   echo "Installed npm packages successfully."
