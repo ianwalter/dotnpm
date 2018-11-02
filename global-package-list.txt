@@ -3,3 +3,4 @@ emoj
 localtunnel
 trash-cli
 yarn
+npx

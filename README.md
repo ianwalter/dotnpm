@@ -1,6 +1,5 @@
 # dotnpm
-> Ian's [npm](https://www.npmjs.com) configuration (part of
-  [dotfiles](https://github.com/ianwalter/dotfiles))
+> Ian's [npm][npmUrl] configuration (part of [dotfiles][dotfilesUrl])
 
 ## Installation
 
@@ -17,3 +16,6 @@ Install packages in the global package list if they are not already installed:
 &nbsp;
 
 ISC &copy; [Ian Walter](http://iankwalter.com)
+
+[npmUrl]: https://www.npmjs.com
+[dotfilesUrl]: https://github.com/ianwalter/dotfiles
