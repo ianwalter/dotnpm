@@ -3,7 +3,7 @@
 if [[ $(uname) == 'Linux' ]]; then
 
   # Change NPM default directory if necessary to avoid permission problems.
-  if [[ $(npm config get prefix) == '/usr' ]]; then
+  if [[ $(npm config get prefix) == '/usr/local' ]]; then
     mkdir ~/.npm-global
     npm config set prefix '~/.npm-global'
   fi

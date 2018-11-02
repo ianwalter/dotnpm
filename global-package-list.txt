@@ -1,6 +1,5 @@
 diff-so-fancy
 emoj
 localtunnel
-pure-prompt
 trash-cli
 yarn
