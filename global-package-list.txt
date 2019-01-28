@@ -2,5 +2,4 @@ diff-so-fancy
 emoj
 localtunnel
 trash-cli
-yarn
 npx
