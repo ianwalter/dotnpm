@@ -2,4 +2,3 @@ diff-so-fancy
 emoj
 localtunnel
 trash-cli
-npx
