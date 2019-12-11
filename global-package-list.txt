@@ -4,3 +4,4 @@ emoj
 localtunnel
 trash-cli
 yarn
+gitmoji-cli
