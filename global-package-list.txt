@@ -1,7 +1,6 @@
-@ianwalter/bcrypt
-diff-so-fancy
 emoj
 localtunnel
 trash-cli
 yarn
 gitmoji-cli
+mongoku
