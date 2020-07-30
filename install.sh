@@ -10,6 +10,11 @@ if [[ $(uname) == 'Linux' ]]; then
 
 fi
 
+# Install latest Node.js using n.
+if [[ ! `which node` ]]; then
+  n latest
+fi
+
 # Copy global-package-list.txt file to .npm directory.
 mkdir -p ~/.npm
 cp ./global-package-list.txt ~/.npm
